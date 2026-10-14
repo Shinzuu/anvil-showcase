@@ -1,0 +1,18 @@
+# Anvil
+
+> Anvil is a HighLevel build toolkit for Claude Code, made by Shinzuu. It is a Claude Code plugin of nine skills that plans a HighLevel (GoHighLevel) account from call notes, documents and questionnaire answers, builds it in the user's own signed-in browser (Claude in Chrome, or Playwright as a fallback), and reads every write back before reporting. It waits for the user's explicit go before any write, builds workflows as drafts, and ends each build with an undo list. It never handles passwords. The source is not public; it is available from the author on request.
+
+Counted from the toolkit: 9 skills, a catalogue of 297 workflow triggers, actions and filters, 30 workflow modules plus 4 industry packs, 17 API surfaces with proven write paths, 556 automated tests.
+
+## Install with an agent
+
+- [Agent setup page](https://shinzuu.github.io/anvil-showcase/agent-setup.html): what the setup prompt does, what the agent asks the human, and safety notes
+- [Agent setup prompt (raw)](https://shinzuu.github.io/anvil-showcase/agent-setup-prompt.md): paste into Claude Code; it installs Anvil from a local folder the user already has, connects the browser, runs Anvil's self-check and does one read-only test
+
+## Docs
+
+- [Website](https://shinzuu.github.io/anvil-showcase/): overview, a sample plan and simulation on an invented business, what it builds, where it stops
+
+## Optional
+
+- Source code: available on request from the author
